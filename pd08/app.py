@@ -21,9 +21,12 @@ app_ui = ui.page_navbar(
                 ),
                 width = 3
             ),
-            ui.panel_main()
+            ui.panel_main(
+                "Painel de Conteúdo Principal",
+                style = "background-color: #B7B7A5"
+                )
         )
-        ),
+    ),
     ui.nav("Página 2"),
     ui.nav_control(ui.a("ÁFIRA INVESTIMENTOS", href = "https://www.afirainvestimentos.com/")),
     ui.nav_menu(
